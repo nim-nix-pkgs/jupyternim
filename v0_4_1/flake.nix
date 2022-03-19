@@ -13,33 +13,33 @@
   inputs.src-jupyternim-v0_4_1.repo  = "jupyternim";
   inputs.src-jupyternim-v0_4_1.type  = "github";
   
-  #inputs."zmq".owner = "nim-nix-pkgs";
-  #inputs."zmq".ref   = "master";
-  #inputs."zmq".repo  = "zmq";
-  #inputs."zmq".type  = "github";
-  #inputs."zmq".inputs.nixpkgs.follows = "nixpkgs";
-  #inputs."zmq".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."zmq".owner = "nim-nix-pkgs";
+  inputs."zmq".ref   = "master";
+  inputs."zmq".repo  = "zmq";
+  inputs."zmq".type  = "github";
+  inputs."zmq".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."zmq".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  #inputs."hmac".owner = "nim-nix-pkgs";
-  #inputs."hmac".ref   = "master";
-  #inputs."hmac".repo  = "hmac";
-  #inputs."hmac".type  = "github";
-  #inputs."hmac".inputs.nixpkgs.follows = "nixpkgs";
-  #inputs."hmac".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."hmac".owner = "nim-nix-pkgs";
+  inputs."hmac".ref   = "master";
+  inputs."hmac".repo  = "hmac";
+  inputs."hmac".type  = "github";
+  inputs."hmac".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."hmac".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  #inputs."nimsha2".owner = "nim-nix-pkgs";
-  #inputs."nimsha2".ref   = "master";
-  #inputs."nimsha2".repo  = "nimsha2";
-  #inputs."nimsha2".type  = "github";
-  #inputs."nimsha2".inputs.nixpkgs.follows = "nixpkgs";
-  #inputs."nimsha2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."nimsha2".owner = "nim-nix-pkgs";
+  inputs."nimsha2".ref   = "master";
+  inputs."nimsha2".repo  = "nimsha2";
+  inputs."nimsha2".type  = "github";
+  inputs."nimsha2".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."nimsha2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  #inputs."python3@".owner = "nim-nix-pkgs";
-  #inputs."python3@".ref   = "master";
-  #inputs."python3@".repo  = "python3@";
-  #inputs."python3@".type  = "github";
-  #inputs."python3@".inputs.nixpkgs.follows = "nixpkgs";
-  #inputs."python3@".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."python3@".owner = "nim-nix-pkgs";
+  inputs."python3@".ref   = "master";
+  inputs."python3@".repo  = "python3@";
+  inputs."python3@".type  = "github";
+  inputs."python3@".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."python3@".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
