@@ -11,6 +11,7 @@
   inputs.src-jupyternim-0_5_5.ref   = "refs/tags/0.5.5";
   inputs.src-jupyternim-0_5_5.owner = "stisa";
   inputs.src-jupyternim-0_5_5.repo  = "jupyternim";
+  inputs.src-jupyternim-0_5_5.dir   = "";
   inputs.src-jupyternim-0_5_5.type  = "github";
   
   inputs."zmq".owner = "nim-nix-pkgs";
