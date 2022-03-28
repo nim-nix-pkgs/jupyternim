@@ -11,7 +11,6 @@
   inputs.src-jupyternim-master.ref   = "refs/heads/master";
   inputs.src-jupyternim-master.owner = "stisa";
   inputs.src-jupyternim-master.repo  = "jupyternim";
-  inputs.src-jupyternim-master.dir   = "";
   inputs.src-jupyternim-master.type  = "github";
   
   inputs."zmq".owner = "nim-nix-pkgs";
